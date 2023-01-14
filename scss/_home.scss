@@ -1,0 +1,29 @@
+.home { 
+    position: absolute;
+
+    .pets { 
+        position: relative;
+        margin: 0 auto;
+        top: 0;
+    }
+
+    .banner {
+        margin-top: -101px;
+        display: flex;
+        padding: 68px 38px 0px 211px;
+        background: #A2D2FF;
+        .text-side { 
+            width: 694px;
+            h1 { 
+                font-size: 36px;
+            }
+
+            p { 
+                font-size: 24px;
+            }
+            .btn-learn-more { 
+                margin-top: 59px ;
+            }
+        }
+    }
+}
