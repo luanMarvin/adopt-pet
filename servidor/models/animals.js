@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 
 const schema = new mongoose.Schema({
-    animalName: String,
-    animalBirth: Date,
-    animalType: String,
-    animalGender: String,
-    animalRace: String
+    animalName: String, //Nome do animal
+    animalBirth: Date, // Dia do nascimento
+    animalType: String, // Gato ou Cachorro
+    animalGender: String, // Genero
+    animalRace: String // Raça do animal
     //Obs* Necessário guardar fotos para os animais.
 });
 
