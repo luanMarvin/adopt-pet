@@ -3,13 +3,14 @@ const mongoose = require('mongoose');
 
 //Post
 
-async function post(req, res){
+async function postPet(req, res){
     const {
         animalName,
         animalBirth,
         animalType,
         animalGender,
-        animalRace
+        animalRace,
+        animalDescription
     } = req.body
 
     const databaseRegister = new AnimalModel({
@@ -17,7 +18,8 @@ async function post(req, res){
         animalBirth,
         animalType,
         animalGender,
-        animalRace
+        animalRace,
+        animalDescription
     })
 
     databaseRegister.save();
@@ -25,5 +27,5 @@ async function post(req, res){
 }
 
 module.exports = {
-    post
+    postPet
 }
