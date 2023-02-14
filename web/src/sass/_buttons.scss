@@ -1,0 +1,16 @@
+.btn-register { 
+    display: flex;
+    padding: 15px 28px;
+    background-color: #A2D2FF;
+    gap: 1.5rem;
+    border-radius: 3.8rem;
+
+    color: black!important;
+    transition: .3s all;
+    
+
+    &:hover { 
+        transform: scale(1.1);
+
+    }
+}
